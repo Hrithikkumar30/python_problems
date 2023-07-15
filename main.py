@@ -107,3 +107,19 @@
         
 # number(123)
 
+
+# Write a program that will check whether the number is armstrong number or not.
+
+def armstrong(num):
+    num1=num
+    sum=0
+    while num>0:
+        rem = num%10
+        sum+=rem**3
+        num=num//10
+        
+    if num1==sum:
+            print('its a armstrong number')
+    else:
+            print("it's not a armstrong number")
+armstrong(370)
