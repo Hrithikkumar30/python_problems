@@ -15,7 +15,7 @@
 
 # sum = 0
 
-# for i in str(num):7894
+# for i in str(num):
 #     sum+=int(i)
 # print(sum)
 
@@ -79,8 +79,31 @@
 
 
     
-# Overlapping rectangles
+# Write a program that will determine weather when the value of temperature and humidity is provided by the user.
 
+# def weather_condition(Temp , Hum):
+   
+    
+#     if Temp >= 30 and Hum>=90:
+#         print('Hot and Humid')
+#     elif Temp >= 30 and Hum<90:
+#         print('Hot')
+#     elif Temp < 30 and Hum>=90:
+#         print('Cool and Humid')
+#     else :
+#         print('Cool')
+# weather_condition(Temp=int(input('Enter the temperature')) , Hum=int(input('Enter the Humidity')))
 
     
-    
+# # # Write a program that will take three digits from the user and add the square of each digit.
+# def number(n):
+#     sum =0
+#     n = int(n)
+#     while n >0:
+#         rem = n%10
+#         sum += (rem**2)
+#         n=int(n//10)
+#     print(sum)
+        
+# number(123)
+
